@@ -1,8 +1,6 @@
 // Create a higher order function and invoke the callback function to test your work. You have been provided an example of a problem and a solution to see how this works with our items array.  Study both the problem and the solution to figure out the rest of the problems.
 
-function test(result) {
-  console.log(result);
-}
+
 
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
@@ -28,6 +26,9 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 */
 
+function test(result) {
+  console.log(result);
+}
 
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
